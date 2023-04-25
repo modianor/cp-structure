@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    bootstrap-servers: hadoop105:9092
+    consumer:
+      group-id: community-consumer-group
+      enable-auto-commit: false
+    listener:
+      ack-mode: manual_immediate
+
+
+
+spider:
+  framework:
+    common_topics: "HENAN_ENV_PUNISHMENT"
+    local_test_policyId: ""
+    local_test_bisName: ""

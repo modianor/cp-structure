@@ -1,0 +1,30 @@
+{
+  "policyId": "HEIMAOTOUSU",
+  "bisName": "HEIMAOTOUSU",
+  "detail": {
+    "title": {
+      "xpath": "//h1[@class=\"article\"]/text()"
+    },
+    "name": {
+      "xpath": "//div[@class='ts-q-user clearfix']/span[@class='u-name']/text()"
+    },
+    "id": {
+      "xpath": "//li/label[contains(text(),\"投诉编号\")]/parent::li/allText()"
+    },
+    "target": {
+      "xpath": "//li/label[contains(text(),\"投诉对象\")]/parent::li/a/allText()"
+    },
+    "problem": {
+      "xpath": "//li/label[contains(text(),\"投诉问题\")]/parent::li/allText()"
+    },
+    "appeal": {
+      "xpath": "//li/label[contains(text(),\"投诉要求\")]/parent::li/allText()"
+    },
+    "amount": {
+      "xpath": "//li/label[contains(text(),\"涉诉金额\")]/parent::li/allText()"
+    },
+    "status": {
+      "xpath": "//li/label[contains(text(),\"投诉进度\")]/parent::li/b/allText()"
+    }
+  }
+}

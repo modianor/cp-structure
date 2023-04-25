@@ -1,0 +1,17 @@
+{
+  "policyId": "HENAN_ENV_PUNISHMENT",
+  "bisName": "HENAN_JUNXIAN",
+  "pattern": {
+    ".*\\.html": {
+      "publish_date": {
+        "xpath": "//span[contains(text(),'发文日期')]/following::p[1]/text()"
+      },
+      "agency": {
+        "xpath": "//span[contains(text(),'发文单位')]/following::p[1]/text()"
+      },
+      "title": {
+        "xpath": "//span[contains(text(),'文件名称')]/following::p[1]/text()"
+      }
+    }
+  }
+}
